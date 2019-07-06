@@ -49,6 +49,14 @@ View all directories within a path recursively, in a sorted manner:
 
 `find /srv/share -type d | sort | path_tree_viewer`
 
+View the contents of a (compressed) archive:
+
+`tar -tf archive.tar.gz | path_tree_viewer`
+
+View the contents of a JAR:
+
+`jar tf archive.jar | path_tree_viewer`
+
 ### FAQ
 
 *Why not use `tree`?*
