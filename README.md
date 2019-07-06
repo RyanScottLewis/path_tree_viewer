@@ -68,12 +68,18 @@ functionality `tree` does not have.)
 
 ### TODO
 
+Definite:
+
 - [x] Parse & print paths as a tree from arguments & STDIN
 - [ ] `--format` option with support for both YAML and JSON
-- [ ] Graphviz `dot` format output (and if so, allow to generate image)
-- [ ] Gource-like image output?
+- [ ] `tree`-like output with UTF-8 box drawing characters
 - [ ] Gem package
-- [ ] Pacman package (?)
+
+Possible:
+
+- [ ] Graphviz `dot` format output (and if so, allow to generate image)
+- [ ] Gource-like image output
+- [ ] Pacman package
 
 ## Contributing
 
