@@ -47,7 +47,7 @@ OPTIONS
 
 View all directories within a path recursively, in a sorted manner:
 
-`find /srv/share -type d | sort | path_tree_viewer -i`
+`find /srv/share -type d | sort | path_tree_viewer`
 
 ### FAQ
 
