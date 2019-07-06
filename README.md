@@ -66,6 +66,11 @@ filesystem. This allows users to view the result of many operations concatenated
 or pipe directly from other commands, such as `find`, which can be quite complex (using
 functionality `tree` does not have.)
 
+### TODO
+
+- [x] Parse & print paths as a tree from arguments & STDIN
+- [ ] `--format` option with support for both YAML and JSON
+
 ## Contributing
 
 1. Fork it (<https://github.com/RyanScottLewis/path_tree_viewer/fork>)
