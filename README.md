@@ -70,6 +70,8 @@ functionality `tree` does not have.)
 
 - [x] Parse & print paths as a tree from arguments & STDIN
 - [ ] `--format` option with support for both YAML and JSON
+- [ ] Gem package
+- [ ] Pacman package (?)
 
 ## Contributing
 
