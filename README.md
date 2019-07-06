@@ -13,7 +13,7 @@ Paths can be read from both command-line arguments as well as from standard inpu
 ## Usage
 
 ```
-$ path_tree_viewer hello/world foo/bar/baz                                                                                                                                                                                                     Insert zsh 1 master 2019-07-06 5:51 PM
+$ path_tree_viewer hello/world foo/bar/baz
 /
   hello
     world
@@ -42,6 +42,21 @@ OPTIONS
     -I, --indent-char VALUE          Character to use for indentation (default: ' ')
     -i, --indent-size VALUE          Size for each indentation level (default: '2')
 ```
+
+### Tipes & Tricks
+
+View all directories within a path recursively, in a sorted manner:
+
+`find /srv/share -type d | sort | path_tree_viewer -i`
+
+### FAQ
+
+*Why not use `tree`?*
+
+This application is designed to manipulate text strings, as opposed to `tree` which will read the
+filesystem. This allows users to view the result of many operations concatenated into a single file
+or pipe directly from other commands, such as `find`, which can be quite complex (using
+functionality `tree` does not have.)
 
 ## Contributing
 
