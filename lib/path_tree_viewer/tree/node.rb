@@ -11,11 +11,6 @@ module PathTreeViewer
       attr_reader   :children
 
       def create(contents)
-        #child = self.class.new(contents)
-
-        #@children << child
-        #child
-
         self.class.new(contents).tap { |child| @children << child }
       end
 
